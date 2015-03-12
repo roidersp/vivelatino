@@ -134,7 +134,7 @@
 		background-image: url(../images/LOGOS_CIRCULO10.png);
 	}
 	#indepth_menu_11{
-		background-image: url(../images/LOGOS_CIRCULO1.png);
+		background-image: url(../images/LOGOS_CIRCULO11.png);
 	}
 
 
@@ -231,7 +231,7 @@
 
 
 #indepth_intro .indepth_text{
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 20px;
 }
 
@@ -285,7 +285,7 @@
 .indepth_page_content .indepth_page_body{
 	position: relative;
 	max-width: 810px;
-	padding: 80px 0; 
+	padding: 60px 0; 
 	
 }
 
@@ -298,7 +298,7 @@
 
 .indepth_page_content .indepth_text{
 	color: #535252; /* color de la fuente*/
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 23px;
 	display: table;
@@ -306,10 +306,10 @@
 
 
 .indepth_page_content .indepth_title{
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 400;
 	margin-bottom: 20px;
-	margin-left: -40px;
+	text-align: center;
 }
 
 .indepth_img_text.rigth{
@@ -629,73 +629,29 @@
 		}
 		
 		
-		#indepth_page1 {
-			background-image: url(../images/movil/JC_2_Chicharito.jpg);
-			height: 1402px;
-			background-color: #1462ce;
-		}
 		
-		#indepth_page2 {
-			background-image: url(../images/movil/JC_3_Jimenez.jpg);
-			height: 1236px;
-			background-color: #f2561a;
-		}
 		
-		#indepth_page3 {
-			background-image: url(../images/movil/JC_4_Pulido.jpg);
-			height: 1397.5px;
-			background-color: #e5b70f;
-		}
-		
-		#indepth_page4 {
-			background-image: url(../images/movil/JC_5_Messi.jpg);
-			height: 1330px;
-			background-color: #589e13;
-		}
-		
-		#indepth_page5 {
-			background-image: url(../images/movil/JC_6_Memo.jpg);
-			height: 1329.5px;
-			background-color: #be1551;
-		}
-		
-		#indepth_page6 {
-			background-image: url(../images/movil/JC_7_Ballo.jpg);
-			height: 1480px;
-			background-color: #1462ce;
-		}
-		
-		#indepth_page7 {
-			background-image: url(../images/movil/JC_8_Turco.jpg);
-			height: 1324.5px;
-			background-color: #f2561a;
-			
-		}
-		
-		#indepth_page8 {
-			background-image: url(../images/movil/JC_9_Chepo.jpg);
-			height: 1470.5px;
-			background-color: #e5b70f;
-		}
-		
-		#indepth_page9 {
-			background-image: url(../images/movil/JC_10_CR.jpg);
-			height: 1390px;
-			background-color: #589e13;
-		}
-		
-		#indepth_page10 {
-			background-image: url(../images/movil/JC_11_Rada.jpg);
-			height: 1326.5px;
-			background-color: #be1551;
-		}
+
 	
 }
 
 
 @media screen and (max-width: 605px) {
 	
+	.indepth_imng_horario{
+		width: 95%;
+		margin: 15px  auto;
+		
+	}
 	
+	.indepth_menu_item{
+		width: 35px;
+		height: 35px;
+	}
+	
+	.indepth_imng_horario img{
+		width: 100%;
+	}
 	
 	#com{
 		width: 98%;
@@ -768,6 +724,10 @@
 		text-transform: uppercase;
 		font-weight: 700;
 	}
+	.indepth_img_text.left, .indepth_img_text.rigth, #indepth_page3 .indepth_img_text, #indepth_page1 .indepth_img_text, #indepth_page5 .indepth_img_text{
+		width: 100%;
+		margin: 15px auto;
+	}
 	
 	
 
@@ -778,6 +738,12 @@
 	#indepth_image1{
 		margin:  15px auto;
 	}
+	
+	
+	.indepth_page_content .indepth_title{
+		font-size: 30px;
+	}
+	
 	
 	.indepth_share_item.whatsapp{
 		display: table;
@@ -796,15 +762,16 @@
 	}
 	
 	#indepth_cover .indepth_parallax_back{
-		background: url(../images/movil/JC_1_Portada.jpg);
+		background: url(../images/Portada_movil.jpg);
 		background-size: 100% auto;
 		background-position: center center;
+		background-repeat: no-repeat;
 		background-attachment: inherit;	
 	}
 
 }
 	
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
 	
 	.indepth_menu_item{
 		float: left;
@@ -816,9 +783,11 @@
 }
 	
 	@media screen and (max-width: 320px) {
-.indepth_box{
-	margin:  10px 0;
-}
+.indepth_menu_item{
+		width: 22px;
+		height: 22px;
+		
+	}
 	}
 
 
