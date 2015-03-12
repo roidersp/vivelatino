@@ -1,6 +1,6 @@
 var disqus_shortname = 'juanfutbol';
 var disqus_identifier;
-var disqus_url="d473f803-47d3-49af-8a63-b371425e4a31";
+var disqus_url="vive-latino-otra-expresion-del-deporte";
 var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
